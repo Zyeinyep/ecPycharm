@@ -4,6 +4,7 @@ def factorial(n):
     elif n == 1 or n == 0:
         return 1
     else:
+
         toReturn = 1
         while (n > 1):
             toReturn *= n
